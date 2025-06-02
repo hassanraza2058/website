@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTech Website</title>
+    <!-- Add this in the <head> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-queries.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex">
+            <a href="#" class="logo"><img src="imgs/MaazTertechLogoWhite.png" alt=""></a>
+            <div class="nav-right flex">
+                <ul class="nav-links flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Cources</a></li>
+                    <li><a href="#">Get In Touch</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                <!-- <form action="#" class="search-bar">
+                    <input type="text" placeholder="Search Cources">
+                    <button type="submit" class="search-btn">🔍</button>
+                </form> -->
+                <div class="buttons flex">
+                    <button class="primary-button">Log In</button>
+                    <button class="secondary-button">Sign Up</button>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>We build coders who can <br> <span class="highlighted-text">solve real-world
+                        problems.</span></h1>
+                <button class="explore-btn secondary-button">Explore Programs - Start Your Journey</button>
+            </div>
+            <p class="hero-para">Join our mission to <span class="highlighted-text"> turn beginners into confident
+                    developers</span> <br> with hands-on training and
+                expert guidance.</p>
+            <div class="stats flex">
+                <div>
+                    <h2>10k+</h2>
+                    <p>Projects Built</p>
+                </div>
+                <div>
+                    <h2>50+</h2>
+                    <p>Mentors</p>
+                </div>
+                <div>
+                    <h2>100k+</h2>
+                    <p>Happy Learners</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-video-section">
+            <h3> Learn smarter, not harder — <br>
+                <span class="highlighted-text">get the concepts, once and for all.</span>
+            </h3>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/9X-Jw16DsTI" frameborder="0"></iframe>
+            </div>
+            <div class="btn-container">
+                <a href="https://www.youtube.com/@Maazster-tech" class="explore-btn secondary-button">Dive into Free
+                    Learning</a>
+            </div>
+        </section>
+
+
+        <section class="cource-section">
+            <h3 class="h3-heading">Cources Offered</h3>
+            <div class="cards-container flex">
+                <div class="card">
+                    <img src="imgs/FullStack.jpg" alt="Course 1">
+                    <div class="card-content">
+                        <h3>Fullstack Webdevelopment</h3>
+                        <span class="badge lang">HINDI</span>
+                        <p class="price">₹5999 <span class="old-price">₹11999</span> <span class="discount">50%
+                                OFF</span></p>
+                    </div>
+                    <button class=" secondary-button">View Details</button>
+                </div>
+                <div class="card">
+                    <img src="imgs/digitalMarketing.jpg" alt="Course 1">
+                    <div class="card-content">
+                        <h3>Digital Marketingt</h3>
+                        <span class="badge lang">HINDI</span>
+                        <p class="price">₹5999 <span class="old-price">₹11999</span> <span class="discount">50%
+                                OFF</span></p>
+                    </div>
+                    <button class=" secondary-button">View Details</button>
+                </div>
+                <div class="card">
+                    <img src="imgs/DataScientist.jpg" alt="Course 1">
+                    <div class="card-content">
+                        <h3>Data Science</h3>
+                        <span class="badge lang">HINDI</span>
+                        <p class="price">₹5999 <span class="old-price">₹11999</span> <span class="discount">50%
+                                OFF</span></p>
+                    </div>
+                    <button class=" secondary-button">View Details</button>
+                </div>
+                <div class="card">
+                    <img src="imgs/FullStack.jpg" alt="Course 1">
+                    <div class="card-content">
+                        <h3>Fullstack Webdevelopment</h3>
+                        <span class="badge lang">HINDI</span>
+                        <p class="price">₹5999 <span class="old-price">₹11999</span> <span class="discount">50%
+                                OFF</span></p>
+                    </div>
+                    <button class=" secondary-button">View Details</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="companies-section">
+            <h2>
+                Top <span class="highlight">companies</span> our students working with
+            </h2>
+
+            <div class="logo-grid">
+                <img src="imgs/logo1.png" alt="Netlink" />
+                <img src="imgs/logo2.png" alt="Netlink" />
+                <img src="imgs/logo3.png" alt="Netlink" />
+                <img src="imgs/logo4.png" alt="Netlink" />
+                <img src="imgs/logo5.png" alt="Netlink" />
+            </div>
+            <div class="cta">
+                <button>Explore Courses</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Left side: Logo and social -->
+            <div class="footer-left">
+                <img src="imgs/MaazTertechLogoWhite.png" alt="Mascot" class="mascot" />
+                <p>Let's connect with our socials</p>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+
+            <!-- Company -->
+            <div class="footer-column">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Support</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Condition</li>
+                    <li>Pricing and Refund</li>
+                    <li>Hire From Us</li>
+                </ul>
+            </div>
+
+            <!-- Community -->
+            <div class="footer-column">
+                <h4>COMMUNITY</h4>
+                <ul>
+                    <li>Inertia</li>
+                    <li>Discord</li>
+                </ul>
+            </div>
+
+            <!-- Get in Touch -->
+            <div class="footer-column">
+                <h4>Get In Touch</h4>
+                <ul>
+                    <li>+91 7309557243</li>
+                    <li>+91 7309557243 </li>
+                    <li>hassan@gmail.com</li>
+                    <li>23-B, Indra Nagar Sector B,<br />Lucknow(UP), 2260</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2025 MaazsterTech Pvt. Ltd.<br>All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+
+
+</body>
+
+</html> 
+<!-- kgjsgi -->
