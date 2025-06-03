@@ -96,13 +96,13 @@ ul {
   height: auto;
 }
 
-.nav-right,
-.nav-links,
-.buttons {
-  gap: 20px;
-}
+  .nav-right,
+  .nav-links,
+  .buttons {
+    gap: 20px;
+  }
 
-.search-bar {
+/* .search-bar {
   position: relative;
 }
 
@@ -123,15 +123,21 @@ ul {
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
-}
+} */
 
 .hamburger{
   display: none;
+  border: none;
+  background-color: transparent;
+  color: white;
 }
 
 
 /* Hero-Section */
 
+.hero-section{
+  min-height: 78vh;
+}
 .hero-section,
 .stats {
   text-align: center;
@@ -149,6 +155,7 @@ ul {
   font-style: italic;
   font-size: 1rem;
   font-family: 'IBM Plex Mono', monospace;
+  margin-top: 1rem;
 }
 
 .highlighted-text {
@@ -163,27 +170,30 @@ ul {
 }
 
 .stats {
-  justify-content: space-around;
-  margin-top: 5.5rem;
+  /* justify-content: space-around; */
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3.5rem;
 }
 
 
 /*  Featured Video Section*/
 
 .featured-video-section {
-  margin-top: 4rem;
-  padding-block: 2rem;
+  min-height: 70vh;
+  /* margin-top: 3rem; */
+  /* padding-block: 2rem; */
   text-align: center;
 }
 
 /* HEADING */
 
-.featured-video-section h3 {
-  font-size: 2.5rem;
+.featured-video-section h2 {
+  /* font-size: 2.5rem; */
   font-weight: 300;
   font-family: monospace;
-  margin-bottom: 2rem;
-  padding: 1rem 2rem;
+  margin-bottom: 4rem;
+  /* padding: 1rem 2rem; */
 }
 
 /* VIDEO CONTANER*/
@@ -195,7 +205,7 @@ ul {
   aspect-ratio: 16 / 9;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(230, 236, 235, 0.3);
+  box-shadow: 0 0 10px rgb(255, 255, 255 );
 }
 
 .video-container iframe {
@@ -207,12 +217,16 @@ ul {
 
 /* Button-container */
 .btn-container {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 
 /* COURSES SECTION */
 
+.cource-section{
+  min-height: 80vh;
+  margin-top: 5rem;
+}
 
 .cards-container {
   flex-wrap: wrap;
@@ -242,8 +256,8 @@ ul {
 
 .h3-heading{
 text-align: center;
-margin-block: 3rem;
-font-size: 2.5rem;
+margin-block: 4rem;
+/* font-size: 2.5rem; */
 }
 
 .cards-container{
@@ -270,7 +284,7 @@ font-size: 2.5rem;
 
 .card h3 {
   margin-bottom: 10px;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   color: black;
 }
 
@@ -319,13 +333,9 @@ font-size: 2.5rem;
 .companies-section {
   text-align: center;
   padding: 50px 20px;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 
-.companies-section h2 {
-  font-size: 2rem;
-  color: white;
-}
 
 .highlight {
   color: var(--bg-color);
@@ -350,7 +360,7 @@ font-size: 2.5rem;
   background-color: var(--bg-color);
   border: none;
   border-radius: 8px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   cursor: pointer;
 }
@@ -417,7 +427,7 @@ font-size: 2.5rem;
   font-size: 14px;
 }
 
-.footer-bottom {
+.footer-bottom p{
   border-top: 1px solid #333;
   text-align: center;
   padding: 15px 0;

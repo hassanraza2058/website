@@ -1,154 +1,123 @@
-/* ========== Medium screens (tablets & small laptops) ========== */
-@media (max-width: 1024px) {
-  .nav-links li {
-    margin: 0 0.5rem;
-  }
+/*   responsive */
 
-  .main-heading {
+@media ( max-width:767px){
+
+/* nav bar */
+.nav-right,
+.nav-links,
+.buttons {
+  gap: 10px;
+}
+
+.nav-links{
+  display: none;
+}
+
+.hamburger{
+  display: block;
+  font-size: 2rem;
+}
+
+/* featured section */
+  .featured-video-section {
+  margin-top: 2rem;
+  padding-block: 1rem;
+}
+
+/* footer section */
+
+
+}
+
+
+/* BELOW 440 SCREEN */
+
+@media (max-width:440px){
+
+
+  /* ROOT ELEMENTS */
+  h1{
     font-size: 2rem;
   }
 
-  .courses-box .box {
-    width: 45%;
-  }
-
-  .why-box {
-    gap: 3rem;
-  }
-
-  .footer-box {
-    gap: 2rem;
-  }
-
-  .box input {
-    width: 80%;
-  }
-}
-
-/* ========== Small screens (mobile) ========== */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-  }
-
-  .hamburger {
-    display: block;
-    font-size: 1.5rem;
-    cursor: pointer;
-    z-index: 999;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #000;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    padding: 1rem 0;
-    z-index: 998;
-  }
-
-  .nav-links.show {
-    display: flex;
-  }
-
-  .nav-links li {
-    padding: 1rem 0;
-    text-align: center;
-  }
-
-  .main-heading {
-    font-size: 1.8rem;
-    margin: 1rem 0;
-    text-align: center;
-  }
-
-  .main-para {
-    text-align: center;
-    padding: 0 1rem;
-    font-size: 1rem;
-  }
-
-  .button1 {
-    display: block;
-    margin: 1rem auto;
-  }
-
-  .courses-box {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .courses-box .box {
-    width: 90%;
-  }
-
-  .why-box {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  .why-box img {
-    width: 90%;
-  }
-
-  .why-box p {
-    text-align: center;
-    font-size: 1rem;
-    padding: 0 1rem;
-  }
-
-  .footer-box {
-    flex-direction: column;
-    text-align: center;
-    gap: 1.5rem;
-  }
-
-  .footer-box .box {
-    width: 100%;
-  }
-
-  .box input {
-    width: 90%;
-    margin: 0.5rem auto;
-  }
-
-  .box h1 {
-    font-size: 1.3rem;
-  }
-
-  .box a {
-    font-size: 0.9rem;
-  }
-}
-
-/* ========== Extra small screens (below 480px) ========== */
-@media (max-width: 480px) {
-  .main-heading {
+  h2{
     font-size: 1.5rem;
   }
 
-  .main-para {
-    font-size: 0.9rem;
-  }
-
-  .box h1 {
+  h3{
     font-size: 1rem;
   }
 
-  .box a,
-  .box input {
-    font-size: 0.8rem;
-  }
-
-  .button1 {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-  }
+ .secondary-button {
+  padding: 0.2rem 0.6rem;
+  /* font-weight: bold; */
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff4500;
+  cursor: pointer;
 }
-/* osdfsdfgit  */
+
+
+/* NAVBAR BUTTONS */
+
+ .buttons{
+  display: none;
+ }
+
+/* HERO SECTION */
+
+.stats{
+  /* justify-content: space-around; */
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.stats h2, .stats p{
+  font-size: 1.1rem;
+}
+
+/* COURSE SECTION */
+
+.cource-section{
+  min-height: 60vh;
+  margin-top: 0.1rem;
+}
+
+/*  FOOTER SECTION*/
+.footer {
+  padding: 20px 10px 0;
+}
+
+.footer-content {
+  /* display: flex; */
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+ 
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.footer-left {
+  max-width: 200px;
+}
+
+
+.footer-bottom p{
+  font-size: 14px;
+  color: #aaa;
+}
+
+}
+
+
+/* FOR SCREEN BELOW 320 */
+
+@media(max-width:321px){
+
+
+}
