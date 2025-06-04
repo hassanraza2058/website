@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+
+}
+
+.Login-container {
+    background-color: transparent;
+    height: 350px;
+    width: 300px;
+    border-radius: 6px;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+
+}
+
+.SignUp-container {
+    background-color: transparent;
+    height: 450px;
+    width: 350px;
+    border-radius: 6px;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* height: 100%; 
+    justify-content: center; */
+}
+
+.login-form h3 {
+    text-align: center;
+    color: #fff;
+    /* font-size: 1.5rem; */
+    /* margin-bottom: 10px; */
+}
+
+.login-form .usepass {
+    padding: 8px 12px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 4px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ff4500;
+    outline: none;
+}
+
+
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.checkbox-container>div {
+    display: flex;
+    align-items: center;
+    /* gap: 6px; */
+}
+
+.forgot-password {
+    color: #fff;
+    /* text-decoration: underline; */
+    cursor: pointer;
+
+}
+
+.btn {
+    padding: 6px 12px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #ff4500;
+    margin-top: 15px;
+}

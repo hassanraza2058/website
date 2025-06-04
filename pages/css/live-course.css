@@ -173,7 +173,7 @@
 /* AI SECTION STYLES */
 
 .ai-section {
-
+    margin-top: 5rem;
     padding: 40px 0 0 0;
 }
 
@@ -246,10 +246,9 @@
 
 
 
-
-.webdev-section {
+/* .webdev-section {
     padding: 40px 0 0 0;
-}
+} */
 
 .webdev-container {
     max-width: 1200px;
